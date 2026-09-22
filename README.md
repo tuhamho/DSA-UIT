@@ -41,6 +41,12 @@ Mục tiêu của repo này không phải chỉ lưu đáp án, mà là ghi lạ
 - đảo mảng
 - kiểm tra thứ tự của mảng
 
+## How to follow the roadmap
+
+Học lần lượt từ `01-Array` đến `18-Dynamic-Programming`. Trong mỗi topic, chọn một bài trong `README.md`, tự viết file `.cpp`, compile/test rồi gửi mình review khi hoàn thành.
+
+Các thư mục đã có đề bài nhưng chưa đánh dấu hoàn thành. Chỉ cập nhật tiến độ sau khi bài đã được tự làm và kiểm tra.
+
 ## Repository Structure
 
 ```text
