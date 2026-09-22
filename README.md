@@ -101,6 +101,7 @@ Chạy trên Windows:
 Codex sẽ cập nhật phần này khi một bài được hoàn thành và kiểm tra thành công.
 
 <!-- DSA_PROGRESS_START -->
+- **Topic organization:** Các bài đã biên dịch được phân loại vào `01-Array`, `08-Linked-List` và `12-Hashing`.
 - **Array - input and output:** Nhập `n`, lưu phần tử vào mảng và duyệt mảng để xuất kết quả. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 <!-- DSA_PROGRESS_END -->
 
