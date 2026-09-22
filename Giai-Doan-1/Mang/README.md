@@ -39,4 +39,19 @@ Làm các bài theo thứ tự từ trên xuống dưới. Mỗi file `.cpp` đ�
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Không khởi tạo min/max bằng `0` vì sẽ sai với mảng toàn số dương hoặc toàn số âm.
 
+### 04. Đếm số chẵn và số lẻ
+
+- **Khái niệm:** Kiểm tra tính chẵn lẻ của từng phần tử.
+- **Cách làm:** Duyệt mảng một lần và tăng bộ đếm tương ứng.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+
+### 05. Tìm kiếm tuyến tính
+
+- **Khái niệm:** Tìm vị trí xuất hiện đầu tiên của một giá trị.
+- **Cách làm:** Duyệt từ đầu mảng và dừng ngay khi tìm thấy.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Cần đọc dữ liệu theo đúng thứ tự được mô tả trong đề bài.
+
 Mục tiêu: nắm chắc cách duyệt mảng, xử lý trường hợp biên và phân tích `O(n)` thời gian.

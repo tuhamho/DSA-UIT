@@ -113,6 +113,8 @@ Codex sẽ cập nhật phần này khi một bài được hoàn thành và ki�
 - **Array - input and output:** Nhập `n`, lưu phần tử vào mảng và duyệt mảng để xuất kết quả. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 - **Array - sum:** Duyệt mảng và cộng dồn các phần tử. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 - **Array - min and max:** Khởi tạo min/max từ phần tử đầu tiên rồi cập nhật trong một lần duyệt. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
+- **Array - count even and odd:** Duyệt mảng một lần và đếm theo tính chẵn lẻ. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
+- **Array - linear search:** Duyệt từ đầu và dừng tại vị trí đầu tiên có giá trị cần tìm. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 <!-- DSA_PROGRESS_END -->
 
 ## Commit Convention

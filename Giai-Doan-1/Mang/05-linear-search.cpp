@@ -16,6 +16,25 @@ Output: 1
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    int a[1000];
+    int n;
+    int x;
+    cin >> n;
+    for ( int i=0; i< n; i++){
+        cin >> a[i];
+    }
+    cin >> x;
+    int c= 0;
+    for ( int i =0 ;i<n;i++){
+        if ( a[i]==x){
+            cout << i;
+            c++;
+            break;
+        }
+    }
+    if (c==0)
+    cout << -1;
+
+
     return 0;
 }

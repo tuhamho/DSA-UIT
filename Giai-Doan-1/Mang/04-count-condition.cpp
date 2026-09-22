@@ -15,6 +15,21 @@ Output: even = 3, odd = 3
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    int a[1000];
+    int n;
+    cin >> n;
+    for ( int i=0; i<n; i++){
+        cin >> a[i];
+    }
+    int even= 0;
+    int odd = 0;
+    for ( int i=0; i<n;i++){
+        if(a[i]%2==0){
+            even++;
+        }
+        else
+        odd++;
+    }
+    cout << "even = "<<even<<", odd = "<<odd;
     return 0;
 }
