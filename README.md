@@ -1,80 +1,122 @@
 # DSA-UIT
 
-Repository lưu các bài tập **Cấu trúc dữ liệu và Giải thuật (Data Structures and Algorithms)** được viết bằng **C++** trong quá trình học tại UIT.
+Repository dùng để học và luyện **Data Structures & Algorithms (DSA)** bằng **C++**.
 
-## Nội dung
+Mục tiêu của repo này không phải chỉ lưu đáp án, mà là ghi lại quá trình học: tự làm bài, sửa lỗi, hiểu thuật toán, phân tích độ phức tạp và theo dõi tiến độ.
 
-Một số chủ đề/bài tập hiện có trong repository:
+## Learning Roadmap
 
-- Mảng và duyệt mảng
-- Linked List
-- Đảo ngược Linked List
-- Kiểm tra Palindrome
-- `unordered` / tìm kiếm dữ liệu
-- Các bài thực hành C++ khác
+- [ ] 01. Array
+- [ ] 02. String
+- [ ] 03. Sorting
+- [ ] 04. Binary Search
+- [ ] 05. Two Pointers
+- [ ] 06. Sliding Window
+- [ ] 07. Prefix Sum
+- [ ] 08. Linked List
+- [ ] 09. Stack
+- [ ] 10. Queue
+- [ ] 11. Recursion
+- [ ] 12. Hashing
+- [ ] 13. Tree
+- [ ] 14. Heap / Priority Queue
+- [ ] 15. Graph
+- [ ] 16. Greedy
+- [ ] 17. Backtracking
+- [ ] 18. Dynamic Programming
 
-## Cấu trúc file
+## Current Focus
+
+### Array
+
+Đang ôn lại các kiến thức cơ bản:
+
+- khai báo mảng
+- nhập / xuất mảng
+- duyệt mảng
+- tính tổng
+- tìm min / max
+- đếm phần tử theo điều kiện
+- linear search
+- đảo mảng
+- kiểm tra thứ tự của mảng
+
+## Repository Structure
 
 ```text
 DSA-UIT/
-├── bai1.cpp
-├── bai2.cpp
-├── baitrenlop.cpp
-├── duyetmang.cpp
-├── lambai1.cpp
-├── linkedlist.cpp
-├── linkedlist3.cpp
-├── linkedlist4.cpp
-├── linkedlist5.cpp
-├── linkedlista1.cpp
-├── linkedlista2.cpp
-├── palindrome.cpp
-├── reverselinkedlist.cpp
-├── timxunordered.cpp
-└── README.md
+├── AGENTS.md
+├── README.md
+├── .gitignore
+├── 01-Array/
+├── 02-String/
+├── 03-Sorting/
+├── 04-Binary-Search/
+├── 05-Two-Pointers/
+├── 06-Sliding-Window/
+├── 07-Prefix-Sum/
+├── 08-Linked-List/
+├── 09-Stack/
+├── 10-Queue/
+├── 11-Recursion/
+├── 12-Hashing/
+├── 13-Tree/
+├── 14-Heap/
+├── 15-Graph/
+├── 16-Greedy/
+├── 17-Backtracking/
+└── 18-Dynamic-Programming/
 ```
 
-> Danh sách file có thể được cập nhật thêm trong quá trình học.
+> Cấu trúc có thể được bổ sung dần khi học; không cần tạo toàn bộ thư mục ngay từ đầu.
 
-## Công nghệ sử dụng
+## How I Learn
 
-- **Ngôn ngữ:** C++
-- **Compiler:** GCC / MinGW
-- **IDE/Editor:** Visual Studio Code
+Với mỗi bài tập:
 
-## Cách chạy chương trình
+1. Đọc và hiểu đề.
+2. Tự nghĩ cách giải trước.
+3. Tự viết code.
+4. Compile và test.
+5. Sửa lỗi và ghi lại điều đã học.
+6. Phân tích Time Complexity và Space Complexity.
+7. Commit và push bài đã hoàn thành lên GitHub.
 
-Biên dịch một file C++ bằng `g++`:
+## Compile C++
+
+Ví dụ với `g++`:
 
 ```bash
-g++ tenfile.cpp -o tenfile
+g++ -std=c++17 -Wall -Wextra -pedantic bai.cpp -o bai
 ```
 
-Chạy chương trình trên Windows:
+Chạy trên Windows:
 
-```bash
-tenfile.exe
+```powershell
+.\bai.exe
+```
+
+## Progress Log
+
+Codex sẽ cập nhật phần này khi một bài được hoàn thành và kiểm tra thành công.
+
+<!-- DSA_PROGRESS_START -->
+- **Array - input and output:** Nhập `n`, lưu phần tử vào mảng và duyệt mảng để xuất kết quả. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
+<!-- DSA_PROGRESS_END -->
+
+## Commit Convention
+
+```text
+DSA: <topic> - <exercise name>
 ```
 
 Ví dụ:
 
-```bash
-g++ linkedlist.cpp -o linkedlist
-linkedlist.exe
+```text
+DSA: Array - find maximum element
+DSA: Linked List - reverse linked list
 ```
-
-## Mục đích
-
-Repository này được tạo để:
-
-- Lưu trữ source code các bài tập DSA
-- Theo dõi quá trình học và thực hành C++
-- Dễ dàng quản lý và đồng bộ code bằng Git/GitHub
-
-## Tác giả
-
-GitHub: [tuhamho](https://github.com/tuhamho)
 
 ---
 
-Nếu repository này được cập nhật thường xuyên, nội dung và cấu trúc file có thể thay đổi theo thời gian.
+Learning DSA one problem at a time. 🚀
