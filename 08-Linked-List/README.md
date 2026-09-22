@@ -29,3 +29,10 @@ Các bài tập tạo node, nối node, duyệt và đảo linked list.
 - **Approach:** Dùng `prev`, `current` và `next` để đảo từng liên kết.
 - **Time:** O(n)
 - **Space:** O(1)
+
+### Palindrome and traversal practice (`panlindrome.cpp`, `linkedlist2.cpp`)
+
+- **Concept:** Kết hợp tạo, đảo và so sánh các linked list.
+- **Approach:** Duyệt node bằng con trỏ `current` và cập nhật liên kết khi cần.
+- **Time:** O(n)
+- **Space:** O(n) cho các node.

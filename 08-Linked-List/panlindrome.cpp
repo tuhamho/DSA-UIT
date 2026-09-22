@@ -68,7 +68,7 @@ bool check(Node* head1,Node* head2)
     return false;
 
 };
-int main() {
+int main() {    
      Node* head=  nullptr;
     for( int i=1; i<=5; i ++){
         InSertAtTail(head, i);

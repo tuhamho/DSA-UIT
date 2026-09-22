@@ -120,4 +120,6 @@ DSA: Linked List - reverse linked list
 
 ---
 
-Learning DSA one problem at a time. 🚀
+## Author
+
+GitHub: [tuhamho](https://github.com/tuhamho)
