@@ -15,6 +15,18 @@ Output: 0
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    int a[1000];
+    int n;
+    cin >> n;
+    for ( int i = 0 ; i <n;i++){
+        cin >> a[i];
+    }
+    int b = 0;
+    int c = 0;
+    while (b <n){
+        c+= a[b];
+        b++;
+    }
+    cout << c;
     return 0;
 }

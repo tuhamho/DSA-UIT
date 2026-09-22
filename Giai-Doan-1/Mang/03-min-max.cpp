@@ -14,7 +14,24 @@ Output: min = -10, max = 4
 #include <iostream>
 using namespace std;
 
+
 int main() {
-    // TODO: Tự viết lời giải.
+    int a[1000];
+    int n ;
+     cin >> n;
+    for ( int i = 0; i<n;i++ ){
+        cin >> a[i];
+    }
+    int max = a[0];
+    int min = a[0];
+    for (int i = 0; i<n; i++){
+        if (a[i]> max){
+            max = a[i];
+        }
+        if(a[i]<min){
+            min = a[i];
+        }
+    }
+    cout << "min = " << min<<", max = "<<max;
     return 0;
 }

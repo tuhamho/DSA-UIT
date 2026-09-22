@@ -15,4 +15,28 @@ Làm các bài theo thứ tự từ trên xuống dưới. Mỗi file `.cpp` đ�
 9. `09-remove-element.cpp` - Xóa phần tử tại vị trí
 10. `10-frequency.cpp` - Đếm tần suất phần tử
 
+## Bài đã hoàn thành
+
+### 01. Nhập và xuất mảng
+
+- **Khái niệm:** Nhập, lưu và duyệt các phần tử trong mảng.
+- **Cách làm:** Dùng một vòng lặp để nhập và một vòng lặp để xuất.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+
+### 02. Tính tổng phần tử
+
+- **Khái niệm:** Duyệt mảng và cộng dồn các phần tử.
+- **Cách làm:** Khởi tạo tổng bằng `0`, sau đó cộng lần lượt từng giá trị.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+
+### 03. Tìm phần tử nhỏ nhất và lớn nhất
+
+- **Khái niệm:** Duyệt mảng và duy trì giá trị nhỏ nhất, lớn nhất hiện tại.
+- **Cách làm:** Khởi tạo min và max bằng phần tử đầu tiên rồi cập nhật khi duyệt.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Không khởi tạo min/max bằng `0` vì sẽ sai với mảng toàn số dương hoặc toàn số âm.
+
 Mục tiêu: nắm chắc cách duyệt mảng, xử lý trường hợp biên và phân tích `O(n)` thời gian.

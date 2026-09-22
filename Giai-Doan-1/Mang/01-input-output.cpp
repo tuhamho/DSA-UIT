@@ -15,6 +15,17 @@ Output: 1 2 3 4 5
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    int a[1000];
+    int n;
+    cin >>n;
+    for ( int i = 0 ; i <n;i++){
+        cin >> a[i];
+    }
+    for ( int i = 0; i<n;i++){
+        if (i > 0) {
+            cout << " ";
+        }
+        cout << a[i];
+    }
     return 0;
 }
