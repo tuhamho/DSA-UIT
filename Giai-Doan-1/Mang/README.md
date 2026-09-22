@@ -54,4 +54,19 @@ Làm các bài theo thứ tự từ trên xuống dưới. Mỗi file `.cpp` đ�
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Cần đọc dữ liệu theo đúng thứ tự được mô tả trong đề bài.
 
+### 06. Đảo ngược mảng
+
+- **Khái niệm:** Sử dụng hai con trỏ ở hai đầu mảng.
+- **Cách làm:** Đổi chỗ từng cặp phần tử đối xứng rồi tiến hai con trỏ vào giữa.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+
+### 07. Kiểm tra mảng không giảm
+
+- **Khái niệm:** So sánh các cặp phần tử liền kề.
+- **Cách làm:** Dừng ngay khi gặp một cặp có phần tử trước lớn hơn phần tử sau.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Chỉ có `n - 1` cặp liền kề; không được truy cập `a[n]`.
+
 Mục tiêu: nắm chắc cách duyệt mảng, xử lý trường hợp biên và phân tích `O(n)` thời gian.

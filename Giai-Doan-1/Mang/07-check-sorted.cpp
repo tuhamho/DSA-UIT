@@ -15,6 +15,20 @@ Output: YES
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
-    return 0;
+    int a[1000];
+    int n;
+    cin >> n;
+    for (int i=0; i<n;i++){
+        cin >> a[i];
+    }
+    bool check = true;
+    for ( int i = 0 ; i < n-1; i++){
+        if(a[i] > a[i+1]){
+        check = false;
+        break;}
+    }
+    if(check)
+    cout<<"YES";
+    else
+    cout<<"NO";
 }
