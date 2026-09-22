@@ -47,6 +47,8 @@ Học lần lượt từ `01-Array` đến `18-Dynamic-Programming`. Trong mỗi
 
 Các thư mục đã có đề bài nhưng chưa đánh dấu hoàn thành. Chỉ cập nhật tiến độ sau khi bài đã được tự làm và kiểm tra.
 
+Hiện tại đang bắt đầu với `Giai-Doan-1-Mang`, gồm 10 bài ôn tập mảng cơ bản.
+
 ## Repository Structure
 
 ```text
