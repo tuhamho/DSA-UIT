@@ -16,6 +16,42 @@ Output: 2:2 3:2 4:1
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    int a[1000];
+    int n;
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    bool firstOutput = true;
+    for (int i = 0; i < n; i++) {
+        bool appeared = false;
+
+        for (int j = 0; j < i; j++) {
+            if (a[j] == a[i]) {
+                appeared = true;
+                break;
+            }
+        }
+
+        if (appeared) {
+            continue;
+        }
+
+        int count = 0;
+        for (int j = i; j < n; j++) {
+            if (a[j] == a[i]) {
+                count++;
+            }
+        }
+
+        if (!firstOutput) {
+            cout << ' ';
+        }
+        cout << a[i] << ':' << count;
+        firstOutput = false;
+    }
+
     return 0;
 }

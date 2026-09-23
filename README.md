@@ -109,6 +109,7 @@ Chạy trên Windows:
 Codex sẽ cập nhật phần này khi một bài được hoàn thành và kiểm tra thành công.
 
 <!-- DSA_PROGRESS_START -->
+- **Array - frequency:** Đếm số lần xuất hiện của mỗi giá trị bằng vòng lặp lồng nhau, `O(n²)` thời gian và `O(1)` bộ nhớ phụ.
 - **Array - remove element:** Xóa phần tử tại vị trí bằng cách dịch mảng, `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 - **Array - second largest:** Tìm phần tử lớn thứ hai phân biệt bằng một lần duyệt mảng, `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 - **Topic organization:** Các bài đã biên dịch được phân loại vào `01-Array`, `08-Linked-List` và `12-Hashing`.

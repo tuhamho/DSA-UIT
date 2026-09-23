@@ -85,4 +85,12 @@ Làm các bài theo thứ tự từ trên xuống dưới. Mỗi file `.cpp` đ�
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Xóa phần tử trong mảng cần cập nhật kích thước logic, không cần tạo mảng mới.
 
+### 10. Đếm tần suất phần tử
+
+- **Khái niệm:** Đếm số lần xuất hiện của từng giá trị trong mảng.
+- **Cách làm:** Với mỗi giá trị chưa xuất hiện trước đó, duyệt phần còn lại để đếm.
+- **Thời gian:** O(n²)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Cần bỏ qua giá trị đã in để không in trùng kết quả.
+
 Mục tiêu: nắm chắc cách duyệt mảng, xử lý trường hợp biên và phân tích `O(n)` thời gian.
