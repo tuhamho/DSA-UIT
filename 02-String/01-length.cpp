@@ -15,6 +15,8 @@ Output: 5
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    string s;
+    cin >> s;
+    cout << s.size();
     return 0;
 }

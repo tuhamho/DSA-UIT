@@ -21,4 +21,30 @@
 4. Kiểm tra chuỗi palindrome.
 5. Tìm ký tự xuất hiện nhiều nhất.
 
+## Bài đã hoàn thành
+
+### 01. Đếm độ dài chuỗi
+
+- **Khái niệm:** Dùng `string::size()` để lấy số ký tự.
+- **Thời gian:** O(1)
+- **Bộ nhớ phụ:** O(1)
+
+### 02. Đếm nguyên âm
+
+- **Khái niệm:** Duyệt từng ký tự và kiểm tra nguyên âm.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+
+### 03. Đếm loại ký tự
+
+- **Khái niệm:** Dùng `isupper`, `islower` và `isdigit`.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+
+### 04. Đảo ngược chuỗi
+
+- **Khái niệm:** Đổi chỗ ký tự bằng hai con trỏ và biến tạm.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+
 Mục tiêu: làm quen với `string`, duyệt ký tự và xử lý khoảng trắng.

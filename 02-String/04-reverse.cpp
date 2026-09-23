@@ -15,6 +15,17 @@ Output: olleh
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    string s;
+    cin >> s;
+    size_t left = 0;
+    size_t right = s.size() - 1;
+    for (size_t i = 0; i < s.size() / 2; i++) {
+        char current = s[left];
+        s[left] = s[right];
+        s[right] = current;
+        left++;
+        right--;
+    }
+    cout <<s;
     return 0;
 }
