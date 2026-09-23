@@ -14,8 +14,32 @@ Output: YES
 #include <iostream>
 #include <string>
 using namespace std;
-
+void reverse(string &s){
+    if(s.empty()){
+        return;
+    }
+    size_t left = 0;
+    size_t right = s.size() - 1;
+    for (size_t i = 0; i < s.size() / 2; i++) {
+        char current = s[left];
+        s[left] = s[right];
+        s[right] = current;
+        left++;
+        right--;
+    }
+    
+};
 int main() {
-    // TODO: Tự viết lời giải.
+    string s;
+    cin>>s;
+    string b = s;
+    reverse(b);
+    if(b==s){
+        cout <<"YES";
+    }
+    else 
+    cout <<"NO";
+
+   
     return 0;
 }

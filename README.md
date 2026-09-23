@@ -109,6 +109,7 @@ Chạy trên Windows:
 Codex sẽ cập nhật phần này khi một bài được hoàn thành và kiểm tra thành công.
 
 <!-- DSA_PROGRESS_START -->
+- **String - palindrome:** Đảo một bản sao của chuỗi rồi so sánh với chuỗi ban đầu, `O(n)` thời gian và `O(n)` bộ nhớ.
 - **String - exercises 01 to 04:** Độ dài chuỗi, nguyên âm, loại ký tự và đảo ngược chuỗi; độ phức tạp chủ yếu `O(n)`.
 - **Array - frequency:** Đếm số lần xuất hiện của mỗi giá trị bằng vòng lặp lồng nhau, `O(n²)` thời gian và `O(1)` bộ nhớ phụ.
 - **Array - remove element:** Xóa phần tử tại vị trí bằng cách dịch mảng, `O(n)` thời gian và `O(1)` bộ nhớ phụ.

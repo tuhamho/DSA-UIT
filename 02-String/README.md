@@ -47,4 +47,12 @@
 - **Thời gian:** O(n)
 - **Bộ nhớ phụ:** O(1)
 
+### 05. Kiểm tra chuỗi palindrome
+
+- **Khái niệm:** So sánh chuỗi ban đầu với chuỗi đã đảo ngược.
+- **Cách làm:** Tạo bản sao, đảo bản sao bằng hai con trỏ rồi so sánh.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(n)
+- **Bài học:** Cần xử lý chuỗi rỗng trước khi tính `size() - 1` với `size_t`.
+
 Mục tiêu: làm quen với `string`, duyệt ký tự và xử lý khoảng trắng.
