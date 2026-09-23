@@ -17,6 +17,14 @@ Làm các bài theo thứ tự từ trên xuống dưới. Mỗi file `.cpp` đ�
 
 ## Bài đã hoàn thành
 
+### 08. Tìm phần tử lớn thứ hai
+
+- **Khái niệm:** Duyệt mảng một lần để giữ lại giá trị lớn nhất và lớn thứ hai phân biệt.
+- **Cách làm:** Cập nhật `max` và `max1` trong cùng một vòng lặp, dùng cờ để xử lý trường hợp chưa có phần tử lớn thứ hai.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Không khởi tạo `max1` bằng `0` vì mảng có thể chứa số âm.
+
 ### 01. Nhập và xuất mảng
 
 - **Khái niệm:** Nhập, lưu và duyệt các phần tử trong mảng.

@@ -109,6 +109,7 @@ Chạy trên Windows:
 Codex sẽ cập nhật phần này khi một bài được hoàn thành và kiểm tra thành công.
 
 <!-- DSA_PROGRESS_START -->
+- **Array - second largest:** Tìm phần tử lớn thứ hai phân biệt bằng một lần duyệt mảng, `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 - **Topic organization:** Các bài đã biên dịch được phân loại vào `01-Array`, `08-Linked-List` và `12-Hashing`.
 - **Array - input and output:** Nhập `n`, lưu phần tử vào mảng và duyệt mảng để xuất kết quả. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
 - **Array - sum:** Duyệt mảng và cộng dồn các phần tử. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
