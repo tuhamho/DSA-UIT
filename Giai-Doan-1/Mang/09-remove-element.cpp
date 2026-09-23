@@ -15,6 +15,21 @@ Output: 10 20 40 50
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    int a[1000];
+    int n;
+    cin >> n;
+    for( int i =0; i< n; i++){
+        cin >> a[i];
+    }
+    int k;
+    cin >> k;
+    for (int i= k;i<n-1;i++){
+        a[i]= a[i+1];
+    }
+    for( int i =0; i< n-1; i++){
+        cout<< a[i];
+        if(i< n-2)
+        cout <<" ";
+    }
     return 0;
 }

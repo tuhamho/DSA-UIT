@@ -77,4 +77,12 @@ Làm các bài theo thứ tự từ trên xuống dưới. Mỗi file `.cpp` đ�
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Chỉ có `n - 1` cặp liền kề; không được truy cập `a[n]`.
 
+### 09. Xóa phần tử tại vị trí
+
+- **Khái niệm:** Dịch các phần tử phía sau sang trái để xóa một phần tử trong mảng.
+- **Cách làm:** Duyệt từ vị trí `k` đến phần tử kế cuối, sau đó dùng kích thước mới `n - 1` để xuất.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Xóa phần tử trong mảng cần cập nhật kích thước logic, không cần tạo mảng mới.
+
 Mục tiêu: nắm chắc cách duyệt mảng, xử lý trường hợp biên và phân tích `O(n)` thời gian.
