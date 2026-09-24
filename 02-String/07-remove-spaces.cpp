@@ -14,7 +14,18 @@ Output: IloveC++
 #include <string>
 using namespace std;
 
+
 int main() {
-    // TODO: Tự viết lời giải.
+    string s;
+    getline(cin, s);
+    string b;
+    for(size_t i=0; i<s.size();i++){
+        if(!isspace(s[i]) ){
+            b+=s[i];
+        }
+    }
+    cout << b;
+
+
     return 0;
 }

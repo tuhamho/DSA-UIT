@@ -63,4 +63,11 @@
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Không thể chỉ đếm khoảng trắng vì có thể có nhiều khoảng trắng liên tiếp hoặc ở đầu/cuối câu.
 
+### 07. Xóa khoảng trắng
+
+- **Khái niệm:** Duyệt chuỗi và chỉ giữ lại ký tự không phải khoảng trắng.
+- **Cách làm:** Dùng `isspace()` để nhận diện khoảng trắng, kể cả tab.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(n) cho chuỗi kết quả.
+
 Mục tiêu: làm quen với `string`, duyệt ký tự và xử lý khoảng trắng.
