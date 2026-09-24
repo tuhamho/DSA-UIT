@@ -70,4 +70,12 @@
 - **Thời gian:** O(n)
 - **Bộ nhớ phụ:** O(n) cho chuỗi kết quả.
 
+### 08. Tìm ký tự xuất hiện nhiều nhất
+
+- **Khái niệm:** Dùng `unordered_map` để đếm tần suất ký tự.
+- **Cách làm:** Duyệt lại chuỗi để chọn ký tự có tần suất cao nhất, bỏ qua khoảng trắng; khi hòa, giữ ký tự gặp trước.
+- **Thời gian:** O(n) trung bình.
+- **Bộ nhớ phụ:** O(k), với `k` là số ký tự khác nhau.
+- **Bài học:** Dùng cờ để tránh in biến ký tự chưa được khởi tạo khi chuỗi không có ký tự hợp lệ.
+
 Mục tiêu: làm quen với `string`, duyệt ký tự và xử lý khoảng trắng.

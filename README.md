@@ -109,6 +109,7 @@ Chạy trên Windows:
 Codex sẽ cập nhật phần này khi một bài được hoàn thành và kiểm tra thành công.
 
 <!-- DSA_PROGRESS_START -->
+- **String - most frequent character:** Đếm tần suất bằng `unordered_map`, bỏ qua khoảng trắng và giữ ký tự xuất hiện trước khi hòa.
 - **String - remove whitespace:** Tạo chuỗi mới chỉ gồm ký tự không phải khoảng trắng, `O(n)` thời gian và `O(n)` bộ nhớ.
 - **String - count words:** Đếm số từ bằng trạng thái đang ở trong từ hay không, `O(n)` thời gian và `O(1)` bộ nhớ.
 - **String - palindrome:** Đảo một bản sao của chuỗi rồi so sánh với chuỗi ban đầu, `O(n)` thời gian và `O(n)` bộ nhớ.
