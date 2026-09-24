@@ -55,4 +55,12 @@
 - **Bộ nhớ phụ:** O(n)
 - **Bài học:** Cần xử lý chuỗi rỗng trước khi tính `size() - 1` với `size_t`.
 
+### 06. Đếm số từ
+
+- **Khái niệm:** Nhận diện thời điểm bắt đầu một từ mới.
+- **Cách làm:** Dùng biến `inword` để phân biệt ký tự đầu từ với các ký tự tiếp theo.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Không thể chỉ đếm khoảng trắng vì có thể có nhiều khoảng trắng liên tiếp hoặc ở đầu/cuối câu.
+
 Mục tiêu: làm quen với `string`, duyệt ký tự và xử lý khoảng trắng.

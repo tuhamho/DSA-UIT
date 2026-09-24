@@ -13,9 +13,30 @@ Output: 4
 
 #include <iostream>
 #include <string>
+#include <cctype>
 using namespace std;
 
 int main() {
-    // TODO: Tự viết lời giải.
+    string s;
+    getline(cin,s);
+    int count=0;
+    bool inword = false;
+    for ( size_t i =0 ; i < s.size(); i++){
+        if(s[i]==' '){
+            inword = false;
+        }
+        if(inword){
+            continue;
+
+        }
+        
+        if(s[i]!= ' ' &&  inword == false){
+            count++;
+            inword = true;
+        }
+        
+        
+    }
+    cout << count ;
     return 0;
 }
