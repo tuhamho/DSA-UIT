@@ -4,20 +4,22 @@ Repository dùng để học và luyện **Data Structures & Algorithms (DSA)** 
 
 Mục tiêu của repo này không phải chỉ lưu đáp án, mà là ghi lại quá trình học: tự làm bài, sửa lỗi, hiểu thuật toán, phân tích độ phức tạp và theo dõi tiến độ.
 
-## Learning Roadmap
+## Lộ trình và tiến độ
 
-- [ ] 01. Array
-- [ ] 02. String
+Các ô dưới đây đánh dấu khi hoàn thành toàn bộ topic; tiến độ bài tập hiện tại được ghi riêng bên dưới.
+
+- [ ] 01. Array — đang học giai đoạn 1
+- [ ] 02. String — đang học
 - [ ] 03. Sorting
 - [ ] 04. Binary Search
 - [ ] 05. Two Pointers
 - [ ] 06. Sliding Window
 - [ ] 07. Prefix Sum
-- [ ] 08. Linked List
+- [ ] 08. Linked List — đã có một số bài thực hành
 - [ ] 09. Stack
 - [ ] 10. Queue
 - [ ] 11. Recursion
-- [ ] 12. Hashing
+- [ ] 12. Hashing — đã có bài thực hành
 - [ ] 13. Tree
 - [ ] 14. Heap / Priority Queue
 - [ ] 15. Graph
@@ -25,29 +27,12 @@ Mục tiêu của repo này không phải chỉ lưu đáp án, mà là ghi lạ
 - [ ] 17. Backtracking
 - [ ] 18. Dynamic Programming
 
-## Current Focus
+### Đang làm
 
-### Array
+- **Array:** Hoàn thành bài 1–9 trong [01-Array](01-Array/README.md). Bài 10 đang được luyện lại với `unordered_map`.
+- **String:** Hoàn thành bài 1–8 trong [02-String](02-String/README.md); còn bài 9–10.
 
-Đang ôn lại các kiến thức cơ bản:
-
-- khai báo mảng
-- nhập / xuất mảng
-- duyệt mảng
-- tính tổng
-- tìm min / max
-- đếm phần tử theo điều kiện
-- linear search
-- đảo mảng
-- kiểm tra thứ tự của mảng
-
-## How to follow the roadmap
-
-Học lần lượt từ `01-Array` đến `18-Dynamic-Programming`. Trong mỗi topic, chọn một bài trong `README.md`, tự viết file `.cpp`, compile/test rồi gửi mình review khi hoàn thành.
-
-Các thư mục đã có đề bài nhưng chưa đánh dấu hoàn thành. Chỉ cập nhật tiến độ sau khi bài đã được tự làm và kiểm tra.
-
-Hiện tại đang bắt đầu với topic `01-Array`, gồm 10 bài ôn tập mảng cơ bản trong giai đoạn 1.
+Học theo thứ tự bài trong README của từng topic. Tự viết lời giải, thử các trường hợp biên, rồi nhờ review khi hoàn thành.
 
 ## Repository Structure
 
@@ -78,7 +63,7 @@ DSA-UIT/
 
 > Cấu trúc có thể được bổ sung dần khi học; không cần tạo toàn bộ thư mục ngay từ đầu.
 
-## How I Learn
+## Quy trình học
 
 Với mỗi bài tập:
 
@@ -88,14 +73,14 @@ Với mỗi bài tập:
 4. Compile và test.
 5. Sửa lỗi và ghi lại điều đã học.
 6. Phân tích Time Complexity và Space Complexity.
-7. Commit và push bài đã hoàn thành lên GitHub.
+7. Ghi nhận bài đã hoàn thành rồi commit và push.
 
 ## Compile C++
 
 Ví dụ với `g++`:
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -pedantic bai.cpp -o bai
+g++ -std=c++17 -Wall -Wextra -pedantic 02-String/01-length.cpp -o bai
 ```
 
 Chạy trên Windows:
@@ -106,25 +91,11 @@ Chạy trên Windows:
 
 ## Progress Log
 
-Codex sẽ cập nhật phần này khi một bài được hoàn thành và kiểm tra thành công.
+Tóm tắt các bài đã được hoàn thành và kiểm tra. Chi tiết cách làm nằm trong README của từng topic.
 
 <!-- DSA_PROGRESS_START -->
-- **String - most frequent character:** Đếm tần suất bằng `unordered_map`, bỏ qua khoảng trắng và giữ ký tự xuất hiện trước khi hòa.
-- **String - remove whitespace:** Tạo chuỗi mới chỉ gồm ký tự không phải khoảng trắng, `O(n)` thời gian và `O(n)` bộ nhớ.
-- **String - count words:** Đếm số từ bằng trạng thái đang ở trong từ hay không, `O(n)` thời gian và `O(1)` bộ nhớ.
-- **String - palindrome:** Đảo một bản sao của chuỗi rồi so sánh với chuỗi ban đầu, `O(n)` thời gian và `O(n)` bộ nhớ.
-- **String - exercises 01 to 04:** Độ dài chuỗi, nguyên âm, loại ký tự và đảo ngược chuỗi; độ phức tạp chủ yếu `O(n)`.
-- **Array - frequency:** Đếm số lần xuất hiện của mỗi giá trị bằng vòng lặp lồng nhau, `O(n²)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - remove element:** Xóa phần tử tại vị trí bằng cách dịch mảng, `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - second largest:** Tìm phần tử lớn thứ hai phân biệt bằng một lần duyệt mảng, `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Topic organization:** Các bài đã biên dịch được phân loại vào `01-Array`, `08-Linked-List` và `12-Hashing`.
-- **Array - input and output:** Nhập `n`, lưu phần tử vào mảng và duyệt mảng để xuất kết quả. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - sum:** Duyệt mảng và cộng dồn các phần tử. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - min and max:** Khởi tạo min/max từ phần tử đầu tiên rồi cập nhật trong một lần duyệt. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - count even and odd:** Duyệt mảng một lần và đếm theo tính chẵn lẻ. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - linear search:** Duyệt từ đầu và dừng tại vị trí đầu tiên có giá trị cần tìm. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - reverse:** Dùng hai con trỏ để đổi chỗ các cặp phần tử đối xứng. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
-- **Array - check sorted:** So sánh các cặp liền kề và dừng khi phát hiện mảng giảm. Dùng `O(n)` thời gian và `O(1)` bộ nhớ phụ.
+- **Array (bài 1–9):** Nhập/xuất, tổng, min/max, đếm, tìm kiếm, đảo mảng, kiểm tra thứ tự, tìm số lớn thứ hai và xóa phần tử.
+- **String (bài 1–8):** Độ dài, nguyên âm, loại ký tự, đảo chuỗi, palindrome, đếm từ, xóa khoảng trắng và tìm ký tự phổ biến nhất.
 <!-- DSA_PROGRESS_END -->
 
 ## Commit Convention
