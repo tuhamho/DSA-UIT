@@ -19,3 +19,11 @@ Mục tiêu: hiểu các thuật toán sắp xếp cơ bản, cách chúng di ch
 - **Cách làm:** Lặp tối đa `n - 1` lượt để đưa các phần tử lớn dần về cuối mảng.
 - **Thời gian:** O(n²)
 - **Bộ nhớ phụ:** O(1)
+
+### 03. Selection Sort tăng dần
+
+- **Khái niệm:** Mỗi lượt chọn phần tử nhỏ nhất trong đoạn chưa sắp xếp.
+- **Cách làm:** Tìm vị trí nhỏ nhất từ `i` đến cuối mảng, rồi đổi chỗ với `a[i]`.
+- **Thời gian:** O(n²)
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Lưu vị trí nhỏ nhất khi tìm; chỉ đổi chỗ sau khi tìm xong mỗi lượt.
