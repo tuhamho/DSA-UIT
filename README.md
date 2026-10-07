@@ -26,7 +26,7 @@ Các ô dưới đây đánh dấu khi hoàn thành toàn bộ topic; tiến đ�
 - [ ] 16. Greedy
 - [ ] 17. Backtracking
 - [ ] 18. Dynamic Programming
-- [ ] 19. C++ Vector
+- [x] 19. C++ Vector
 
 ### Đang làm
 

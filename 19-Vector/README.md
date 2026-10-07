@@ -46,13 +46,6 @@ Gợi ý: `vector` có thể tự thay đổi kích thước khi thêm hoặc x�
 - **Thời gian:** O(n) do các phần tử phía sau có thể phải dịch chuyển.
 - **Bộ nhớ phụ:** O(n) để lưu vector.
 
-### 08. Đảo ngược vector
-
-- **Khái niệm:** Đổi chỗ các phần tử đối xứng qua hai đầu vector.
-- **Cách làm:** Dùng hai chỉ số từ đầu và cuối, đổi chỗ rồi tiến vào giữa.
-- **Thời gian:** O(n)
-- **Bộ nhớ phụ:** O(1)
-
 ### 05. Xóa phần tử tại vị trí
 
 - **Khái niệm:** Xóa phần tử theo chỉ số trong vector.
@@ -74,6 +67,13 @@ Gợi ý: `vector` có thể tự thay đổi kích thước khi thêm hoặc x�
 - **Cách làm:** So sánh từng phần tử với `x`, tăng biến đếm khi bằng nhau.
 - **Thời gian:** O(n)
 - **Bộ nhớ phụ:** O(n) để lưu vector.
+
+### 08. Đảo ngược vector
+
+- **Khái niệm:** Đổi chỗ các phần tử đối xứng qua hai đầu vector.
+- **Cách làm:** Dùng hai chỉ số từ đầu và cuối, đổi chỗ rồi tiến vào giữa.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(1)
 
 ### 09. Xóa mọi phần tử có giá trị x
 
