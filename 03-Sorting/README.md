@@ -35,3 +35,11 @@ Mục tiêu: hiểu các thuật toán sắp xếp cơ bản, cách chúng di ch
 - **Thời gian:** O(n²) trung bình và tệ nhất; O(n) khi mảng đã tăng dần.
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Lưu giá trị cần chèn trước khi dịch các phần tử để không làm mất nó.
+
+### 05. Bubble Sort có dừng sớm
+
+- **Khái niệm:** Dừng sắp xếp khi một lượt không cần đổi chỗ.
+- **Cách làm:** Đếm số lần đổi chỗ trong lượt; nếu bằng 0 sau khi duyệt hết lượt thì dừng.
+- **Thời gian:** O(n) tốt nhất; O(n²) trung bình và tệ nhất.
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Chỉ kiểm tra điều kiện dừng sau khi hoàn thành cả lượt so sánh.
