@@ -96,6 +96,7 @@ Tóm tắt các bài đã được hoàn thành và kiểm tra. Chi tiết cách
 <!-- DSA_PROGRESS_START -->
 - **Sorting - Bubble Sort:** Sắp xếp tăng dần bằng cách đổi chỗ các phần tử liền kề, `O(n²)` thời gian và `O(1)` bộ nhớ phụ.
 - **Sorting - Selection Sort:** Mỗi lượt chọn giá trị nhỏ nhất trong phần chưa sắp xếp, `O(n²)` thời gian và `O(1)` bộ nhớ phụ.
+- **Vector (bài 1–2):** Nhập/in vector và tính tổng bằng cách duyệt các phần tử.
 - **Array (bài 1–9):** Nhập/xuất, tổng, min/max, đếm, tìm kiếm, đảo mảng, kiểm tra thứ tự, tìm số lớn thứ hai và xóa phần tử.
 - **String (bài 1–8):** Độ dài, nguyên âm, loại ký tự, đảo chuỗi, palindrome, đếm từ, xóa khoảng trắng và tìm ký tự phổ biến nhất.
 <!-- DSA_PROGRESS_END -->
