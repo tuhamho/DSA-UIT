@@ -32,7 +32,7 @@ Các ô dưới đây đánh dấu khi hoàn thành toàn bộ topic; tiến đ�
 
 - **Array:** Hoàn thành bài 1–9 trong [01-Array](01-Array/README.md). Bài 10 đang được luyện lại với `unordered_map`.
 - **String:** Hoàn thành bài 1–8 trong [02-String](02-String/README.md); còn bài 9–10.
-- **Vector:** Hoàn thành bài 1–3 và 6 trong [19-Vector](19-Vector/README.md); đang học các thao tác vector.
+- **Vector:** Hoàn thành bài 1–7 trong [19-Vector](19-Vector/README.md); còn bài 8–9.
 
 Học theo thứ tự bài trong README của từng topic. Tự viết lời giải, thử các trường hợp biên, rồi nhờ review khi hoàn thành.
 
