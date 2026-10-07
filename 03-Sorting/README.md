@@ -27,3 +27,11 @@ Mục tiêu: hiểu các thuật toán sắp xếp cơ bản, cách chúng di ch
 - **Thời gian:** O(n²)
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Lưu vị trí nhỏ nhất khi tìm; chỉ đổi chỗ sau khi tìm xong mỗi lượt.
+
+### 04. Insertion Sort tăng dần
+
+- **Khái niệm:** Duy trì đoạn đầu đã sắp xếp và chèn từng phần tử vào đúng vị trí.
+- **Cách làm:** Giữ `key`, dịch các phần tử lớn hơn sang phải rồi đặt `key` vào chỗ trống.
+- **Thời gian:** O(n²) trung bình và tệ nhất; O(n) khi mảng đã tăng dần.
+- **Bộ nhớ phụ:** O(1)
+- **Bài học:** Lưu giá trị cần chèn trước khi dịch các phần tử để không làm mất nó.
