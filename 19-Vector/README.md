@@ -27,3 +27,10 @@ Gợi ý: `vector` có thể tự thay đổi kích thước khi thêm hoặc x�
 - **Thời gian:** O(n)
 - **Bộ nhớ phụ:** O(n)
 - **Bài học:** Dùng kiểu tổng đủ lớn để tránh tràn số.
+
+### 03. Thêm phần tử vào cuối vector
+
+- **Khái niệm:** Kích thước vector có thể tăng khi chương trình chạy.
+- **Cách làm:** Dùng `push_back` để thêm số mới, sau đó in `size()` và các phần tử.
+- **Thời gian:** O(n) cho toàn bộ thao tác nhập và in; mỗi lần thêm cuối trung bình O(1).
+- **Bộ nhớ phụ:** O(n)
