@@ -32,7 +32,7 @@ Các ô dưới đây đánh dấu khi hoàn thành toàn bộ topic; tiến đ�
 
 - **Array:** Hoàn thành bài 1–9 trong [01-Array](01-Array/README.md). Bài 10 đang được luyện lại với `unordered_map`.
 - **String:** Hoàn thành bài 1–8 trong [02-String](02-String/README.md); còn bài 9–10.
-- **Vector:** Hoàn thành bài 1–7 trong [19-Vector](19-Vector/README.md); còn bài 8–9.
+- **Vector:** Hoàn thành bài 1–8 trong [19-Vector](19-Vector/README.md); còn bài 9.
 
 Học theo thứ tự bài trong README của từng topic. Tự viết lời giải, thử các trường hợp biên, rồi nhờ review khi hoàn thành.
 
@@ -99,7 +99,7 @@ Tóm tắt các bài đã được hoàn thành và kiểm tra. Chi tiết cách
 <!-- DSA_PROGRESS_START -->
 - **Sorting - Bubble Sort:** Sắp xếp tăng dần bằng cách đổi chỗ các phần tử liền kề, `O(n²)` thời gian và `O(1)` bộ nhớ phụ.
 - **Sorting - Selection Sort:** Mỗi lượt chọn giá trị nhỏ nhất trong phần chưa sắp xếp, `O(n²)` thời gian và `O(1)` bộ nhớ phụ.
-- **Vector (bài 1–7):** Nhập/in, tính tổng, thêm cuối, chèn/xóa theo vị trí, tìm max và đếm giá trị.
+- **Vector (bài 1–8):** Nhập/in, tính tổng, thêm cuối, chèn/xóa theo vị trí, tìm max, đếm giá trị và đảo vector.
 - **Array (bài 1–9):** Nhập/xuất, tổng, min/max, đếm, tìm kiếm, đảo mảng, kiểm tra thứ tự, tìm số lớn thứ hai và xóa phần tử.
 - **String (bài 1–8):** Độ dài, nguyên âm, loại ký tự, đảo chuỗi, palindrome, đếm từ, xóa khoảng trắng và tìm ký tự phổ biến nhất.
 <!-- DSA_PROGRESS_END -->
