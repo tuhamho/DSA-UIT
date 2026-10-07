@@ -39,6 +39,20 @@ Gợi ý: `vector` có thể tự thay đổi kích thước khi thêm hoặc x�
 - **Thời gian:** O(n) cho toàn bộ thao tác nhập và in; mỗi lần thêm cuối trung bình O(1).
 - **Bộ nhớ phụ:** O(n)
 
+### 04. Chèn phần tử vào vị trí
+
+- **Khái niệm:** Iterator xác định vị trí thao tác trong vector.
+- **Cách làm:** Dùng `insert` tại `begin() + p` để chèn giá trị.
+- **Thời gian:** O(n) do các phần tử phía sau có thể phải dịch chuyển.
+- **Bộ nhớ phụ:** O(n) để lưu vector.
+
+### 05. Xóa phần tử tại vị trí
+
+- **Khái niệm:** Xóa phần tử theo chỉ số trong vector.
+- **Cách làm:** Dùng `erase` tại `begin() + p`, rồi in kích thước và các phần tử còn lại.
+- **Thời gian:** O(n) do các phần tử phía sau có thể phải dịch chuyển.
+- **Bộ nhớ phụ:** O(n) để lưu vector.
+
 ### 06. Tìm phần tử lớn nhất
 
 - **Khái niệm:** Duyệt vector và giữ lại giá trị lớn nhất đã gặp.
@@ -46,3 +60,10 @@ Gợi ý: `vector` có thể tự thay đổi kích thước khi thêm hoặc x�
 - **Thời gian:** O(n)
 - **Bộ nhớ phụ:** O(n) để lưu vector.
 - **Bài học:** Không khởi tạo giá trị lớn nhất bằng `0` nếu dữ liệu có thể toàn số âm.
+
+### 07. Đếm số lần xuất hiện
+
+- **Khái niệm:** Duyệt vector và đếm các phần tử thỏa điều kiện.
+- **Cách làm:** So sánh từng phần tử với `x`, tăng biến đếm khi bằng nhau.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(n) để lưu vector.
