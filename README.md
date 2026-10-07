@@ -26,11 +26,13 @@ Các ô dưới đây đánh dấu khi hoàn thành toàn bộ topic; tiến đ�
 - [ ] 16. Greedy
 - [ ] 17. Backtracking
 - [ ] 18. Dynamic Programming
+- [ ] 19. C++ Vector
 
 ### Đang làm
 
 - **Array:** Hoàn thành bài 1–9 trong [01-Array](01-Array/README.md). Bài 10 đang được luyện lại với `unordered_map`.
 - **String:** Hoàn thành bài 1–8 trong [02-String](02-String/README.md); còn bài 9–10.
+- **Vector:** Hoàn thành bài 1–3 và 6 trong [19-Vector](19-Vector/README.md); đang học các thao tác vector.
 
 Học theo thứ tự bài trong README của từng topic. Tự viết lời giải, thử các trường hợp biên, rồi nhờ review khi hoàn thành.
 
@@ -58,7 +60,8 @@ DSA-UIT/
 ├── 15-Graph/
 ├── 16-Greedy/
 ├── 17-Backtracking/
-└── 18-Dynamic-Programming/
+├── 18-Dynamic-Programming/
+└── 19-Vector/
 ```
 
 > Cấu trúc có thể được bổ sung dần khi học; không cần tạo toàn bộ thư mục ngay từ đầu.
