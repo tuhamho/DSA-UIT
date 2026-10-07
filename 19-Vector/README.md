@@ -74,3 +74,10 @@ Gợi ý: `vector` có thể tự thay đổi kích thước khi thêm hoặc x�
 - **Cách làm:** So sánh từng phần tử với `x`, tăng biến đếm khi bằng nhau.
 - **Thời gian:** O(n)
 - **Bộ nhớ phụ:** O(n) để lưu vector.
+
+### 09. Xóa mọi phần tử có giá trị x
+
+- **Khái niệm:** Lọc vector bằng cách giữ lại các phần tử khác `x`.
+- **Cách làm:** Duyệt vector một lượt, chép phần tử cần giữ sang vector phụ.
+- **Thời gian:** O(n)
+- **Bộ nhớ phụ:** O(n) cho vector phụ.
