@@ -8,6 +8,8 @@ Làm lần lượt các bài tập dưới đây. Mỗi file có đề bài và 
 4. `04-insertion-sort.cpp` - Insertion Sort tăng dần
 5. `05-bubble-optimized.cpp` - Dừng sớm nếu mảng đã có thứ tự
 6. `06-count-comparisons-swaps.cpp` - Đếm số lần so sánh và đổi chỗ của Bubble Sort
+7. `07-merge-sort.cpp` - Merge Sort tăng dần
+8. `08-quick-sort.cpp` - Quick Sort tăng dần
 
 Mục tiêu: hiểu các thuật toán sắp xếp cơ bản, cách chúng di chuyển phần tử và độ phức tạp `O(n²)`.
 
@@ -43,3 +45,11 @@ Mục tiêu: hiểu các thuật toán sắp xếp cơ bản, cách chúng di ch
 - **Thời gian:** O(n) tốt nhất; O(n²) trung bình và tệ nhất.
 - **Bộ nhớ phụ:** O(1)
 - **Bài học:** Chỉ kiểm tra điều kiện dừng sau khi hoàn thành cả lượt so sánh.
+
+### 07. Merge Sort tăng dần
+
+- **Khái niệm:** Chia mảng thành các đoạn nhỏ rồi trộn chúng theo thứ tự.
+- **Cách làm:** Chia đệ quy hai nửa; `merge` so sánh hai nửa đã sắp xếp và ghép vào mảng tạm.
+- **Thời gian:** O(n log n)
+- **Bộ nhớ phụ:** O(n)
+- **Bài học:** Khi trộn, chép hết phần tử còn dư của một nửa trước khi ghi kết quả về mảng.
