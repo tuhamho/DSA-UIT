@@ -63,3 +63,11 @@ Mục tiêu: hiểu điều kiện để loại bỏ một nửa đoạn tìm ki
 - **Thời gian:** O(log n)
 - **Bộ nhớ:** O(n) để lưu mảng; O(1) bộ nhớ phụ khi tìm.
 - **Bài học:** Khi đoạn tìm kiếm rỗng, phải in `-1` nếu chưa tìm thấy.
+
+### 02. Tìm vị trí xuất hiện đầu tiên
+
+- **Khái niệm:** Tìm lần xuất hiện đầu tiên của một giá trị trong mảng không giảm.
+- **Cách làm:** Khi gặp giá trị cần tìm, lưu vị trí rồi tiếp tục tìm ở nửa trái.
+- **Thời gian:** O(log n)
+- **Bộ nhớ:** O(n) để lưu mảng; O(1) bộ nhớ phụ khi tìm.
+- **Bài học:** Không dừng ngay lần đầu gặp `x`, vì có thể còn `x` ở bên trái.

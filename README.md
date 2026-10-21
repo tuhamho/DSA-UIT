@@ -32,7 +32,7 @@ Các ô dưới đây đánh dấu khi hoàn thành toàn bộ topic; tiến đ�
 
 - **Array:** Hoàn thành bài 1–9 trong [01-Array](01-Array/README.md). Bài 10 đang được luyện lại với `unordered_map`.
 - **String:** Hoàn thành bài 1–8 trong [02-String](02-String/README.md); còn bài 9–10.
-- **Binary Search:** Hoàn thành bài 1; đang học bài 2–5 trong [04-Binary-Search](04-Binary-Search/README.md).
+- **Binary Search:** Hoàn thành bài 1–2; đang học bài 3–5 trong [04-Binary-Search](04-Binary-Search/README.md).
 - **Vector:** Hoàn thành bài 1–9 trong [19-Vector](19-Vector/README.md).
 
 Học theo thứ tự bài trong README của từng topic. Tự viết lời giải, thử các trường hợp biên, rồi nhờ review khi hoàn thành.
@@ -104,6 +104,7 @@ Tóm tắt các bài đã được hoàn thành và kiểm tra. Chi tiết cách
 - **Sorting - Bubble Sort tối ưu:** Dừng sớm khi một lượt không có đổi chỗ; `O(n)` tốt nhất, `O(n²)` trung bình/tệ nhất và `O(1)` bộ nhớ phụ.
 - **Sorting - Merge Sort:** Chia mảng đệ quy rồi trộn hai nửa đã sắp xếp; `O(n log n)` thời gian và `O(n)` bộ nhớ phụ.
 - **Binary Search - Tìm kiếm cơ bản:** Tìm trong mảng tăng dần bằng cách thu hẹp nửa có thể chứa giá trị; `O(log n)` thời gian.
+- **Binary Search - Lần xuất hiện đầu tiên:** Khi gặp giá trị cần tìm, lưu vị trí rồi tiếp tục tìm bên trái; `O(log n)` thời gian.
 - **Vector (bài 1–9):** Nhập/in, tính tổng, thêm cuối, chèn/xóa theo vị trí, tìm max, đếm, đảo và lọc giá trị.
 - **Array (bài 1–9):** Nhập/xuất, tổng, min/max, đếm, tìm kiếm, đảo mảng, kiểm tra thứ tự, tìm số lớn thứ hai và xóa phần tử.
 - **String (bài 1–8):** Độ dài, nguyên âm, loại ký tự, đảo chuỗi, palindrome, đếm từ, xóa khoảng trắng và tìm ký tự phổ biến nhất.
