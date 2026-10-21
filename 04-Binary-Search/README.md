@@ -53,3 +53,13 @@ Ví dụ tìm `8` trong cùng mảng:
 5. [`05-rotated-array-search.cpp`](05-rotated-array-search.cpp) — Tìm trong mảng tăng dần bị xoay vòng, các phần tử phân biệt.
 
 Mục tiêu: hiểu điều kiện để loại bỏ một nửa đoạn tìm kiếm và tự xác định biên trái/phải trong từng biến thể.
+
+## Bài đã hoàn thành
+
+### 01. Tìm kiếm nhị phân cơ bản
+
+- **Khái niệm:** Tìm một giá trị trong mảng đã sắp xếp bằng cách liên tục bỏ một nửa đoạn không phù hợp.
+- **Cách làm:** So sánh với phần tử giữa, rồi cập nhật `left` hoặc `right`.
+- **Thời gian:** O(log n)
+- **Bộ nhớ:** O(n) để lưu mảng; O(1) bộ nhớ phụ khi tìm.
+- **Bài học:** Khi đoạn tìm kiếm rỗng, phải in `-1` nếu chưa tìm thấy.
