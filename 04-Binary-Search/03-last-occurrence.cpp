@@ -21,6 +21,39 @@ Output:
 using namespace std;
 
 int main() {
-    // TODO: Tìm x và tiếp tục tìm bên phải để lấy lần xuất hiện cuối cùng.
+   int n ; cin >> n;
+   vector<int > a(n);
+   for(int i = 0 ; i < n ; i++){
+        cin >> a[i];
+   }
+   int x; cin >> x;
+   int left = 0;
+   int right = n-1;
+   int mid = left + (right -left )/2;
+   bool check = false;
+   int index = 0;
+   for(int i = left ; i<= right ; ){
+    if(left > right){
+        break;
+    }
+    else if(a[mid]==x){
+        index = mid;
+        check = true;
+        left = mid +1;
+        mid = left + (right - left )/2 ;
+    }
+    else if(a[mid] > x){
+        right = mid -1;
+        mid = left + (right - left )/2 ;
+
+    }
+    else if( a[mid ]< x){
+        left = mid +1;
+        mid = left + (right - left )/2 ;
+    }
+
+   }
+   if( check) cout << index;
+   else cout << -1;
     return 0;
 }

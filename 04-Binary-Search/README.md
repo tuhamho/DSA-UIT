@@ -71,3 +71,11 @@ Mục tiêu: hiểu điều kiện để loại bỏ một nửa đoạn tìm ki
 - **Thời gian:** O(log n)
 - **Bộ nhớ:** O(n) để lưu mảng; O(1) bộ nhớ phụ khi tìm.
 - **Bài học:** Không dừng ngay lần đầu gặp `x`, vì có thể còn `x` ở bên trái.
+
+### 03. Tìm vị trí xuất hiện cuối cùng
+
+- **Khái niệm:** Tìm lần xuất hiện cuối cùng của một giá trị trong mảng không giảm.
+- **Cách làm:** Khi gặp giá trị cần tìm, lưu vị trí rồi tiếp tục tìm ở nửa phải.
+- **Thời gian:** O(log n)
+- **Bộ nhớ:** O(n) để lưu mảng; O(1) bộ nhớ phụ khi tìm.
+- **Bài học:** Không dừng ngay lần đầu gặp `x`, vì có thể còn `x` ở bên phải.
