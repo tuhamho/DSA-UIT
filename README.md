@@ -32,6 +32,7 @@ Các ô dưới đây đánh dấu khi hoàn thành toàn bộ topic; tiến đ�
 
 - **Array:** Hoàn thành bài 1–9 trong [01-Array](01-Array/README.md). Bài 10 đang được luyện lại với `unordered_map`.
 - **String:** Hoàn thành bài 1–8 trong [02-String](02-String/README.md); còn bài 9–10.
+- **Binary Search:** Đang học lý thuyết và luyện bài 1–5 trong [04-Binary-Search](04-Binary-Search/README.md).
 - **Vector:** Hoàn thành bài 1–9 trong [19-Vector](19-Vector/README.md).
 
 Học theo thứ tự bài trong README của từng topic. Tự viết lời giải, thử các trường hợp biên, rồi nhờ review khi hoàn thành.
