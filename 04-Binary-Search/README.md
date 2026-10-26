@@ -79,3 +79,11 @@ Mục tiêu: hiểu điều kiện để loại bỏ một nửa đoạn tìm ki
 - **Thời gian:** O(log n)
 - **Bộ nhớ:** O(n) để lưu mảng; O(1) bộ nhớ phụ khi tìm.
 - **Bài học:** Không dừng ngay lần đầu gặp `x`, vì có thể còn `x` ở bên phải.
+
+### 04. Tìm vị trí chèn
+
+- **Khái niệm:** Tìm vị trí đầu tiên có giá trị lớn hơn hoặc bằng `x` trong mảng tăng dần.
+- **Cách làm:** Lưu vị trí ứng viên khi `a[mid] >= x` rồi tiếp tục tìm bên trái.
+- **Thời gian:** O(log n)
+- **Bộ nhớ:** O(n) để lưu mảng; O(1) bộ nhớ phụ khi tìm.
+- **Bài học:** Nếu mọi phần tử nhỏ hơn `x`, vị trí chèn là `n`.

@@ -24,6 +24,31 @@ Giải thích: nếu chèn 4 vào vị trí 2, mảng vẫn giữ thứ tự tă
 using namespace std;
 
 int main() {
-    // TODO: Tìm vị trí đầu tiên mà phần tử không nhỏ hơn x.
+    int n; cin >> n;
+    vector<int> a(n);
+    for(int i = 0 ; i < n; i++){
+        cin >> a[i];
+    }
+    int left = 0 ;
+    int right = n-1;
+    int mid = left + (right-left)/2;
+    int x; cin >> x;
+    int index = 0;
+    bool check = false;
+    while(left <=right){
+        if(a[mid]>=x){
+            index = mid;
+            check = true;
+            right = mid -1 ;
+            mid = left + ( right - left)/2;
+
+        }
+        else if(a[mid] < x){
+            index = mid + 1;
+            left = mid +1;
+            mid = left + ( right - left)/2;
+        }
+    }
+     cout << index;
     return 0;
 }
