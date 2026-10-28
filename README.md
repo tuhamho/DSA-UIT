@@ -130,6 +130,3 @@ DSA: Linked List - reverse linked list
 ## Author
 
 GitHub: [tuhamho](https://github.com/tuhamho)
-nhắc nhở tuhamho
-nhắc nhở tuhamho
-nhắc nhở tuhamho
